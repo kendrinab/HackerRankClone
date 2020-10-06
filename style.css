@@ -1,4 +1,4 @@
-.logo {
+/* .logo {
   height: 60px;
   background-color: #293d3d;
   left: 0%;
@@ -78,4 +78,23 @@ body {
 
   margin: 0px;
   left: 50px;
+} */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  border: 1px solid black;
+  height: 100vh;
+  align-items: center;
+  background-color: gray;
+}
+
+nav ul {
+  margin-top: 20px;
+  list-style-type: none;
 }
