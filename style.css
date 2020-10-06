@@ -91,10 +91,20 @@ nav {
   border: 1px solid black;
   height: 100vh;
   align-items: center;
-  background-color: gray;
+  background-color: rgb(46, 45, 45);
 }
 
 nav ul {
   margin-top: 20px;
   list-style-type: none;
+  height: 40px;
+  justify-content: space-around;
+  color: whitesmoke;
+}
+
+.logo {
+  height: 100px;
+  background-color: rgb(24, 23, 23);
+  background-size: contain;
+  align-items: center;
 }
