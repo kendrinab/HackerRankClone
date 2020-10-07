@@ -157,17 +157,18 @@ nav.header {
 
 .flowersp {
   color: gray;
-  display: flexbox;
+  display: flex;
   flex-direction: column;
   width: 75%;
 }
 
 .lonely {
   color: lightgray;
-  display: flexbox;
+  display: flex;
   flex-direction: column;
   width: 75%;
   font-family: "Roboto", sans-serif;
+  border: 1px ;
 }
 
 .dot {
@@ -190,7 +191,7 @@ nav.header {
 }
 .lonelyp {
   color: lightgray;
-  display: flexbox;
+  display: flex;
   flex-direction: column;
   width: 75%;
   font-family: "Roboto", sans-serif;
