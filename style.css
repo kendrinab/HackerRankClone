@@ -1,5 +1,6 @@
 * {
   margin: 0;
+  margin-top: 0;
   padding: 0;
   box-sizing: border-box;
 }
@@ -34,7 +35,7 @@ nav.header {
   border: none;
   flex-direction: row;
   justify-content: flex-end;
-  border-bottom: 1px solid;
+  border-bottom: 1px solid lightgray;
 }
 .header-logo {
   height: 30px;
@@ -44,6 +45,7 @@ nav.header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  color: gray;
 }
 /*
  i {
@@ -70,10 +72,77 @@ nav.header {
 .input-field {
   margin: 0 10px;
   border-radius: 20px;
-  border: 1px solid lightgray;
+  opacity: 39%;
+  border: 1px solid whitesmoke;
   height: 22px;
-  width: 200px;
+  width: 220px;
+}
+
+.fa-search {
+  width: 0%;
+  margin: -14px;
 }
 .name {
   margin: 0 10px;
+}
+
+.algo {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  margin: 0 108px;
+  width: 200px;
+  padding-top: 5%;
+  padding-bottom: 2%;
+}
+
+.algo-cats {
+  text-align: right;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  margin: 0 100px;
+  width: 30%;
+  list-style-type: none;
+}
+
+.column {
+  text-align: center;
+  color: gray;
+  float: left;
+  width: 13%;
+  border: 0.5px solid lightgray;
+  border-radius: 2%;
+  justify-content: space-around;
+  padding-left: 5%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  flex-direction: row;
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.challenges {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-evenly;
+  color: gray;
+  padding-top: 5%;
+  padding-left: 5%;
+}
+
+.track {
+  border: 1px solid gray;
+  color: gray;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  flex-direction: row;
+  width: 8%;
+  align-items: center;
 }
