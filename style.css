@@ -87,6 +87,8 @@ nav.header {
 }
 
 .algo {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: gray;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -161,7 +163,33 @@ nav.header {
 }
 
 .lonely {
-  color: gray;
+  color: lightgray;
+  display: flexbox;
+  flex-direction: column;
+  width: 75%;
+  font-family: "Roboto", sans-serif;
+}
+
+.dot {
+  display: flex;
+  height: 15px;
+  width: 15px;
+  background-color: rgb(4, 201, 4);
+  border-radius: 50%;
+  display: inline-block;
+  justify-content: right;
+  margin: 0 160px;
+}
+
+.lonelybutt {
+  display: flex;
+  color: rgb(4, 201, 4);
+  justify-content: right;
+  margin: 0 180px;
+  font-family: Verdana;
+}
+.lonelyp {
+  color: lightgray;
   display: flexbox;
   flex-direction: column;
   width: 75%;
